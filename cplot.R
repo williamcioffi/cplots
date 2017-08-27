@@ -1,4 +1,4 @@
-# compare distributions
+# compare distributions e.g., for betas
 
 cplot <- function(y = list(y1 = rnorm(100), y2 = rnorm(100, mean = 2), y3 = rnorm(100, mean = -3)), rug = TRUE, zero = TRUE) {
 
