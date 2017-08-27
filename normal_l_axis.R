@@ -1,3 +1,4 @@
+#make the axes end at the last tick
 
 x <- rnorm(500)
 y <- rnorm(500)
