@@ -3,7 +3,7 @@
 cplot <- function(y = list(y1 = rnorm(100), y2 = rnorm(100, mean = 2), y3 = rnorm(100, mean = -3)), rug = TRUE, zero = TRUE) {
 
 n <- length(y)
-d <- lapply(y, density)
+d <- lapply(y, density, na.rm = TRUE)
 
 # ys <- unlist(lapply(d, function(l) l$y))
 xs <- unlist(lapply(d, function(l) l$x))
