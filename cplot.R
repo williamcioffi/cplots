@@ -2,7 +2,7 @@
 # compare distributions e.g., for betas
 #
 # ~wrc 20170827
-# modified 20180114
+# modified 20180223
 
 cplot <- function(y = list(y1 = rnorm(100), y2 = rnorm(100, mean = 2), y3 = rnorm(100, mean = -3)), rug = TRUE, zero = TRUE, ...) {
 
